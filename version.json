@@ -1,8 +1,8 @@
 {
-  "versionCode": 22,
-  "versionName": "2.0.2",
-  "changelog": "• Источник перенесён в верхнюю панель со всплывающим меню\n• Рекомендации теперь учитывают выбранный источник (AniLibria, Кодик, Animix)\n• Добавлены отдельные вкладки «Подборки» и «Расписание онгоингов»\n• Улучшена стабильность загрузки обновлений",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.2/app-debug.apk",
+  "versionCode": 23,
+  "versionName": "2.0.3",
+  "changelog": "• Подборки и Расписание онгоингов объединены в 1 удобную вкладку с двумя закладками\n• Заменены обычные эмодзи на стильные векторные иконки с неоновой подсветкой\n• Исправлена ошибка ID-коллизий: теперь в деталях и франшизе никогда не отображаются рандомные тайтлы\n• Улучшена точность поиска серий в Kodik и AniLibria",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.3/app-debug.apk",
   "forceUpdate": false,
   "remoteConfig": {
     "kodikDomains": ["kodik.info", "kodik.biz", "kodik.cc"],
