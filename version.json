@@ -1,7 +1,13 @@
 {
-  "versionCode": 21,
-  "versionName": "2.0.1",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.1/app-debug.apk",
-  "changelog": "• Добавлены новые коллекции\n• Улучшена стабильность плеера",
-  "isForceUpdate": false
+  "versionCode": 22,
+  "versionName": "2.0.2",
+  "changelog": "• Источник перенесён в верхнюю панель со всплывающим меню\n• Рекомендации теперь учитывают выбранный источник (AniLibria, Кодик, Animix)\n• Добавлены отдельные вкладки «Подборки» и «Расписание онгоингов»\n• Улучшена стабильность загрузки обновлений",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.2/app-debug.apk",
+  "forceUpdate": false,
+  "remoteConfig": {
+    "kodikDomains": ["kodik.info", "kodik.biz", "kodik.cc"],
+    "anilibriaDomains": ["api.anilibria.tv", "anilibria.top", "wwnd.space"],
+    "animixDomains": ["animix.biz", "animix.tv"],
+    "playerNotice": ""
+  }
 }
