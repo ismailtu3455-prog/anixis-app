@@ -1,8 +1,9 @@
 {
   "versionCode": 24,
   "versionName": "2.0.4",
-  "changelog": "• Полная оптимизация переключения вкладок нижней навигации: убрана задержка и лаги\n• Состояние экранов (позиция скролла, загруженные тайтлы, результаты поиска) теперь полностью сохраняется при переходах\n• Устранена двойная анимация смещения экранов\n• Аппаратное ускорение переходов (60–120 FPS плавный Fade-Through)\n• Добавлены стабильные ключи элементов списка для исключения лишних перерисовок",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.4/app-debug.apk",
+  "changelog": "• Полное переименование приложения на Anixis\n• Релизная оптимизированная сборка (Release APK)\n• Мгновенное и плавное переключение вкладок нижней навигации (0 мс задержки)\n• Состояние экранов (позиция скролла, загруженные тайтлы, результаты поиска) полностью сохраняется при переходах\n• Устранена двойная анимация смещения экранов\n• Аппаратное ускорение переходов (60–120 FPS плавный Fade-Through)\n• Добавлены стабильные ключи элементов списка для исключения лишних перерисовок",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.4/app-release.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.4/anixis-release.apk",
   "forceUpdate": false,
   "remoteConfig": {
     "kodikDomains": ["kodik.info", "kodik.biz", "kodik.cc"],
