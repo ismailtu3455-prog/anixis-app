@@ -1,9 +1,9 @@
 {
-  "versionCode": 25,
-  "versionName": "2.0.5",
-  "changelog": "• Официальный релиз Anixis!\n• Исправлено получение обновлений: добавлен мгновенный антикеш\n• Поддержка скачивания любых релизных файлов (app-release.apk и app-debug.apk)\n• Полное сохранение состояния вкладок при переключении (без задержек и перезагрузок)\n• Аппаратное ускорение анимаций (60–120 FPS)",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.5/app-debug.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.5/app-release.apk",
+  "versionCode": 26,
+  "versionName": "2.0.6",
+  "changelog": "• Поддержка всех сезонов в источнике Animix (теперь доступны все сезоны франшизы, а не только первый)\n• Удобный выбор сезонов с количеством серий\n• Исправлено определение тайтлов и исключена подгрузка случайных аниме\n• Повышена стабильность воспроизведения через балансировщик Animix",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.123/anixis-release.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.123/anixis-release.apk",
   "forceUpdate": false,
   "remoteConfig": {
     "kodikDomains": ["kodik.info", "kodik.biz", "kodik.cc"],
