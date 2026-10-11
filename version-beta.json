@@ -1,9 +1,9 @@
 {
-  "versionCode": 29,
-  "versionName": "2.0.9-beta",
-  "changelog": "• Фикс вылета при входе в руму\n• Фикс клавиатуры в чате\n• Проверка ников и manual.md",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.9/app-debug.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.9/anixis-release.apk",
+  "versionCode": 30,
+  "versionName": "2.1.0-beta",
+  "changelog": "• Официальные серверы Anixis\n• Свой Cloudflare сервер\n• Фикс вылета и клавиатуры",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.0/app-debug.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.0/anixis-release.apk",
   "isBeta": true,
   "forceUpdate": false
 }
