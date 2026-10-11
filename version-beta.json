@@ -1,9 +1,9 @@
 {
-  "versionCode": 30,
-  "versionName": "2.1.0-beta",
-  "changelog": "• Официальные серверы Anixis\n• Свой Cloudflare сервер\n• Фикс вылета и клавиатуры",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.0/app-debug.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.0/anixis-release.apk",
+  "versionCode": 31,
+  "versionName": "2.1.1-beta",
+  "changelog": "• Исправлен PiP режим в румах (чистое видео без оверлеев)\n• Кнопка PiP в плеере",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.1/app-debug.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.1/anixis-release.apk",
   "isBeta": true,
   "forceUpdate": false
 }
