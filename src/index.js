@@ -6,6 +6,7 @@
 
 const rooms = new Map(); // roomId -> Set<WebSocket>
 const roomMeta = new Map(); // roomId -> { lastAction, lastPosition, isPlaying, episodeNumber, animeTitle }
+const roomUsers = new Map(); // roomId -> Map<WebSocket, string>
 
 export default {
   async fetch(request, env, ctx) {
@@ -92,6 +93,37 @@ function handleWebSocketSession(webSocket, roomId) {
       const data = JSON.parse(event.data);
       const action = data.action;
 
+      if (action === "PING") {
+        try { webSocket.send(JSON.stringify({ action: "PONG" })); } catch (e) {}
+        return;
+      }
+
+      if (action === "JOIN") {
+        const requestedNick = (data.user || "Зритель").trim();
+        if (!roomUsers.has(roomId)) {
+          roomUsers.set(roomId, new Map());
+        }
+        const usersInRoom = roomUsers.get(roomId);
+        let isTaken = false;
+        for (const [ws, name] of usersInRoom.entries()) {
+          if (ws !== webSocket && name.toLowerCase() === requestedNick.toLowerCase()) {
+            isTaken = true;
+            break;
+          }
+        }
+        if (isTaken) {
+          try {
+            webSocket.send(JSON.stringify({
+              action: "NICKNAME_TAKEN",
+              user: requestedNick,
+              text: "Ник \"" + requestedNick + "\" уже занят в этой комнате. Выберите другой ник!"
+            }));
+          } catch (e) {}
+          return;
+        }
+        usersInRoom.set(webSocket, requestedNick);
+      }
+
       if (action === "PLAY" || action === "PAUSE" || action === "SEEK" || action === "HEARTBEAT" || action === "EPISODE") {
         const meta = roomMeta.get(roomId) || {};
         if (data.position !== undefined) meta.lastPosition = data.position;
@@ -108,6 +140,11 @@ function handleWebSocketSession(webSocket, roomId) {
 
   const cleanup = () => {
     roomClients.delete(webSocket);
+    if (roomUsers.has(roomId)) {
+      const usersInRoom = roomUsers.get(roomId);
+      usersInRoom.delete(webSocket);
+      if (usersInRoom.size === 0) roomUsers.delete(roomId);
+    }
     if (roomClients.size === 0) {
       rooms.delete(roomId);
       roomMeta.delete(roomId);
