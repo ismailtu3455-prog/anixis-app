@@ -1,9 +1,9 @@
 {
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.6/anixis-release.apk",
-  "changelog": "• Тестовый канал Anixis активен!\n• Проверка мультисезонности Animix\n• Тестирование работы балансировщиков",
   "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.6/app-debug.apk",
+  "changelog": "• Тестовый бета-канал Anixis активен!\n• Поддержка всех сезонов в Animix\n• Тестирование Режима тестировщика",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.6/anixis-release.apk",
   "versionName": "2.0.6-beta",
-  "isBeta": true,
+  "versionCode": 26,
   "forceUpdate": false,
-  "versionCode": 26
+  "isBeta": true
 }
