@@ -1,9 +1,9 @@
 {
-  "versionCode": 27,
-  "versionName": "2.0.7",
-  "changelog": "• Источник Animix теперь установлен по умолчанию при установке\n• Animix перемещен на первое место в списке источников\n• Оптимизирована выдача каталога и быстрых стримов Animix\n• Полная поддержка всех сезонов в карточке аниме",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.7/anixis-release.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.7/anixis-release.apk",
+  "versionCode": 28,
+  "versionName": "2.0.8",
+  "changelog": "• Совместный просмотр (Румы) в реальном времени!\n• 1-Click Deploy личного сервера на Cloudflare Workers\n• Приглашение друзей по ссылке и автоматический вход\n• Сглаживание рассинхрона (Heartbeat & микро-ускорение)\n• Синхронный чат, живые реакции и статус микрофона",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.8/anixis-release.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.8/anixis-release.apk",
   "forceUpdate": false,
   "remoteConfig": {
     "kodikDomains": ["kodik.info", "kodik.biz", "kodik.cc"],
