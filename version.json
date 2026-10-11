@@ -1,9 +1,9 @@
 {
-  "versionCode": 29,
-  "versionName": "2.0.9",
-  "changelog": "• Исправлен вылет через 2-3 секунды после входа в руму (ExoPlayer thread safety)\n• Фикс скрытия видеоплеера при открытии экранной клавиатуры\n• Официальные временные серверы Anixis (комната активна, пока есть зрители)\n• Выбор своего постоянного сервера Cloudflare навсегда\n• Интеграция Quattro VPN для бесперебойного просмотра в РФ\n• Проверка уникальности ников участников",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.9/anixis-release.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.0.9/anixis-release.apk",
+  "versionCode": 30,
+  "versionName": "2.1.0",
+  "changelog": "• Официальные серверы Anixis (наш быстрый сервер в 1 клик)\n• Подключение своего Cloudflare сервера навсегда\n• Исправлен вылет через 2-3 секунды после входа в руму\n• Фикс клавиатуры в чате (видео не пропадает)\n• Интеграция Quattro VPN для бесперебойного просмотра в РФ\n• Проверка уникальности ников участников",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.0/anixis-release.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.0/anixis-release.apk",
   "forceUpdate": false,
   "remoteConfig": {
     "kodikDomains": ["kodik.info", "kodik.biz", "kodik.cc"],
