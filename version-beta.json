@@ -1,9 +1,11 @@
 {
-  "versionCode": 31,
-  "versionName": "2.1.1-beta",
-  "changelog": "• Исправлен PiP режим в румах (чистое видео без оверлеев)\n• Кнопка PiP в плеере",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.1/app-debug.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/v2.1.1/anixis-release.apk",
+  "versionCode": 35,
+  "versionName": "3.0.2-beta",
+  "applicationId": "com.anidoria.app",
   "isBeta": true,
-  "forceUpdate": false
+  "forceUpdate": false,
+  "testingApkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-35/anixis-beta-35.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-35/anixis-beta-35.apk",
+  "sha256": "d8ff473f39ed3a305af6733c6337a56bda0dc71a5330c61b3d6752f9a467439b",
+  "changelog": "P0: update channels, migration safety, current player callbacks. Testing build; source-identity migration is not complete."
 }
