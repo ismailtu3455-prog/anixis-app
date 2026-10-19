@@ -1,11 +1,9 @@
 {
-  "versionCode": 35,
-  "versionName": "3.0.2-beta",
-  "applicationId": "com.anidoria.app",
+  "versionCode": 36,
+  "versionName": "3.0.3-beta",
+  "changelog": "• Изолированный безопасный шлюз Cloudflare Gateway для скрытия API-токенов\n• Исправлено сохранение конкретной страницы и автоскролл в читалке манги\n• Фоновая предзагрузка следующих страниц манги в кэш\n• Расширен список зеркал плеера Kodik в WebView\n• Оптимизация потоков в аккаунтах",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-36/anixis-beta-36.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-36/anixis-beta-36.apk",
   "isBeta": true,
-  "forceUpdate": false,
-  "testingApkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-35/anixis-beta-35.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-35/anixis-beta-35.apk",
-  "sha256": "d8ff473f39ed3a305af6733c6337a56bda0dc71a5330c61b3d6752f9a467439b",
-  "changelog": "P0: update channels, migration safety, current player callbacks. Testing build; source-identity migration is not complete."
+  "forceUpdate": false
 }
