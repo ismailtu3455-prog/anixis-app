@@ -1,9 +1,9 @@
 {
-  "versionCode": 36,
-  "versionName": "3.0.3-beta",
-  "changelog": "• Изолированный безопасный шлюз Cloudflare Gateway для скрытия API-токенов\n• Исправлено сохранение конкретной страницы и автоскролл в читалке манги\n• Фоновая предзагрузка следующих страниц манги в кэш\n• Расширен список зеркал плеера Kodik в WebView\n• Оптимизация потоков в аккаунтах",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-36/anixis-beta-36.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-36/anixis-beta-36.apk",
+  "versionCode": 37,
+  "versionName": "3.0.4-beta",
+  "changelog": "• Полный отказ от системных шрифтовых эмодзи в интерфейсе (переход на векторные Rounded CustomIcons)\n• Модульная архитектура ProxySettingsScreen (7 изолированных секций)\n• Модульная архитектура RoomPlayerScreen (компоненты RoomReactionBar, FloatingReaction, RoomChatSection, RoomControlsOverlay)\n• Автоматическое сохранение истории просмотра в комнатах\n• Интеграция с локальным бэкенд-шлюзом",
+  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-37/anixis-beta-37.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-37/anixis-beta-37.apk",
   "isBeta": true,
   "forceUpdate": false
 }
