@@ -1,9 +1,11 @@
 {
-  "versionCode": 37,
-  "versionName": "3.0.4-beta",
-  "changelog": "• Полный отказ от системных шрифтовых эмодзи в интерфейсе (переход на векторные Rounded CustomIcons)\n• Модульная архитектура ProxySettingsScreen (7 изолированных секций)\n• Модульная архитектура RoomPlayerScreen (компоненты RoomReactionBar, FloatingReaction, RoomChatSection, RoomControlsOverlay)\n• Автоматическое сохранение истории просмотра в комнатах\n• Интеграция с локальным бэкенд-шлюзом",
-  "downloadUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-37/anixis-beta-37.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-37/anixis-beta-37.apk",
+  "versionCode": 84,
+  "versionName": "3.0.51-beta",
+  "applicationId": "com.anidoria.app",
   "isBeta": true,
-  "forceUpdate": false
+  "forceUpdate": false,
+  "testingApkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-84/anixis-beta-84.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-84/anixis-beta-84.apk",
+  "sha256": "27b46e3a221d556b88a7847bd8922545b94f8784b1f13a362180730b45250f94",
+  "changelog": "Автоматическое подтверждение почты после регистрации, восстановление пароля и управление сессиями. Обновлены форма входа/регистрации и карточка профиля; убран перенос старой истории манги. Tester-сборка, не stable release."
 }
