@@ -1,11 +1,11 @@
 {
-  "versionCode": 84,
-  "versionName": "3.0.51-beta",
+  "versionCode": 85,
+  "versionName": "3.0.52-beta",
   "applicationId": "com.anidoria.app",
   "isBeta": true,
   "forceUpdate": false,
-  "testingApkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-84/anixis-beta-84.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-84/anixis-beta-84.apk",
-  "sha256": "27b46e3a221d556b88a7847bd8922545b94f8784b1f13a362180730b45250f94",
-  "changelog": "Автоматическое подтверждение почты после регистрации, восстановление пароля и управление сессиями. Обновлены форма входа/регистрации и карточка профиля; убран перенос старой истории манги. Tester-сборка, не stable release."
+  "testingApkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-85/anixis-beta-85.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-85/anixis-beta-85.apk",
+  "sha256": "20fc7f5ac3a3ade19e5d32ac7fd75152237020fec1ec7c28a35ed5a547f28cda",
+  "changelog": "Манга: отмена устаревших HTTP-запросов при поиске и смене категории, исправление гонки пагинации, ограниченный LRU-кэш метаданных. Обновлён встроенный шаблон room-сервера. Tester-сборка, не stable release."
 }
