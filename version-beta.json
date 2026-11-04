@@ -1,11 +1,11 @@
 {
-  "versionCode": 91,
-  "versionName": "3.0.58-beta",
+  "versionCode": 92,
+  "versionName": "3.0.59-beta",
   "applicationId": "com.anidoria.app",
   "isBeta": true,
   "forceUpdate": false,
-  "testingApkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-91/anixis-beta-91.apk",
-  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-91/anixis-beta-91.apk",
-  "sha256": "3e76f6a3b469d20f45520897f4eab2940e9b7ead7a976272fb55b33511cb0cf8",
-  "changelog": "Манга: повтор загрузки отдельной страницы без сброса позиции, обход повреждённого кэша и ограниченная disk-only предзагрузка соседней страницы с отменой при выходе. UI-проверки 5/5 на AOSP. Tester-сборка, не stable release."
+  "testingApkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-92/anixis-beta-92.apk",
+  "apkUrl": "https://github.com/ismailtu3455-prog/anixis-app/releases/download/testing-92/anixis-beta-92.apk",
+  "sha256": "7bae0cbdf9fc46f1c7c6b39c7289c7c9374b999645ae1607c3dd6480d6f94271",
+  "changelog": "Исправлена манга ReManga после перехода источника на API v2: каталог, поиск, карточки, список глав и страницы. Native ID и история сохранены. Tester-сборка, не stable release."
 }
